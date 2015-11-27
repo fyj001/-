@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "jianchi/HomeTableViewController.m"
-            timestampString = "470219502.897137"
+            timestampString = "470303156.185434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "@implementation HomeTableViewController"
             landmarkType = "3">
          </BreakpointContent>

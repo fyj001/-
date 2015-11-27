@@ -25,7 +25,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    _array = [NSArray arrayWithObjects:@"开心一刻", @"收藏", @"附近", @"活动", @"积分", @"搜索", nil];
+    _array = [NSArray arrayWithObjects:@"开心一刻", @"收藏", @"附近", @"活动", @"积分", @"搜索",@"设置", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -65,6 +65,8 @@
         [self performSegueWithIdentifier:@"jf" sender:self];
     } else if (indexPath.row == 5) {
         [self performSegueWithIdentifier:@"ss" sender:self];
+    } else if (indexPath.row == 6) {
+        [self performSegueWithIdentifier:@"sz" sender:self];
     }
 }
 

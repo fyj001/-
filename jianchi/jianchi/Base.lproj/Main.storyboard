@@ -511,7 +511,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yQ-Ls-QRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3812" y="-205"/>
+            <point key="canvasLocation" x="4716" y="-205"/>
         </scene>
         <!--首页-->
         <scene sceneID="QI0-rX-Cig">
@@ -523,7 +523,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="Gt9-yk-mjx" imageView="bOg-Zv-aHv" rowHeight="53" style="IBUITableViewCellStyleDefault" id="4Da-nV-szC">
-                                <rect key="frame" x="0.0" y="86" width="320" height="53"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="53"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Da-nV-szC" id="1HI-9k-kj6">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
@@ -691,7 +691,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜你！已经注册成功。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0m-hJ-ePg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="恭喜你！已经注册成功。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0m-hJ-ePg">
                                 <rect key="frame" x="63" y="214" width="187" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="187" id="ihe-TU-Lhk"/>
@@ -723,6 +723,7 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="注册" id="icC-yQ-nzN"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZa-zd-glB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
